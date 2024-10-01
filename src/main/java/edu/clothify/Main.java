@@ -1,0 +1,9 @@
+package edu.clothify;
+
+
+public class Main {
+    public static void main(String[] args) {
+        Stater.main(args);
+
+    }
+}

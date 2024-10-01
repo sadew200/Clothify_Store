@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sixtyfour+Convergence&display=swap');
+#tag {
+    -fx-font-family: "Permanent Marker", cursive;
+}
+#EloginTag{
+ -fx-font-family: "Sixtyfour Convergence", system-ui;
+}
+
+#btnEmployee{
+    -fx-effect: dropshadow(gaussian, black, 10, 0.5, 10, 10);
+    -fx-background-color:goldenrod;
+     -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+#btnEmployee:hover{
+     -fx-text-fill: black;
+    -fx-background-color:white;
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0.5, 10, 10);
+}
+
+#btnOwner{
+    -fx-effect: dropshadow(gaussian, black, 10, 0.5, 10, 10);
+    -fx-background-color:goldenrod;
+     -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+#btnOwner:hover{
+     -fx-text-fill: black;
+    -fx-background-color:white;
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0.5, 10, 10);
+}

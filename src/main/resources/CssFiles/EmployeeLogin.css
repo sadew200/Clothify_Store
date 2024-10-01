@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+#EloginTag{
+ -fx-font-family: "Protest Guerrilla", sans-serif;
+ -fx-text-fill: white;
+}
+#txtEmail{
+ -fx-font-size: 16px;
+ -fx-font-weight: bold;
+    -fx-background-color: aqua; /* Light grey background */
+    -fx-border-color: #007acc; /* Blue border */
+    -fx-border-radius: 5px;
+}
+#txtPassword{
+ -fx-font-size: 16px;
+ -fx-font-weight: bold;
+    -fx-background-color: #f0f0f0; /* Light grey background */
+    -fx-border-color: #007acc; /* Blue border */
+    -fx-border-radius: 5px;
+}
+#txtEmail:focused {
+    -fx-background-color: #e0e0e0; /* Slightly darker grey when focused */
+    -fx-border-color: #005f99; /* Darker blue border when focused */
+}
+#btnLogin{
+    -fx-background-color: red;
+    -fx-text-fill: white;
+ -fx-effect: dropshadow(gaussian, white, 10, 0.5, 5, 5);
+}
+
+#btnLogin:hover{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+     -fx-effect: dropshadow(gaussian, red, 10, 0.5, 5, 5);
+}
+
+#btnSignIn{
+    -fx-background-color: red;
+    -fx-text-fill: white;
+ -fx-effect: dropshadow(gaussian, white, 10, 0.5, 5, 5);
+}
+#btnSignIn:hover{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+     -fx-effect: dropshadow(gaussian, red, 10, 0.5, 5, 5);
+}
