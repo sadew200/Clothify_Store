@@ -16,7 +16,7 @@
       </ImageView>
       <ImageView fitHeight="150.0" fitWidth="181.0" layoutX="35.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/Screenshot%202024-09-30%20112013.png" />
+            <Image url="@../img/icon.png" />
          </image>
       </ImageView>
       <Button layoutX="898.0" layoutY="-61.0" mnemonicParsing="false" text="Button" />

@@ -19,7 +19,7 @@
       </ImageView>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="29.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/Screenshot%202024-09-30%20112013.png" />
+            <Image url="@../img/icon.png" />
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#08080850" height="530.0" layoutX="366.0" layoutY="118.0" stroke="BLACK" strokeType="INSIDE" width="415.0" />
