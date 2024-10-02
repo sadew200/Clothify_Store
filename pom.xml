@@ -7,6 +7,15 @@
     <groupId>udu.ICET</groupId>
     <artifactId>clothifyStore</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <parent>
+
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-parent</artifactId>
+            <version>3.3.4</version>
+
+
+
+    </parent>
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
@@ -28,6 +37,13 @@
             <artifactId>javafx-fxml</artifactId>
             <version>24-ea+5</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>3.3.4</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -35,6 +51,14 @@
             <version>1.18.34</version>
             <scope>provided</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
+        <dependency>
+            <groupId>org.hibernate.orm</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>6.5.0.Final</version>
+        </dependency>
+
     </dependencies>
 
 </project>

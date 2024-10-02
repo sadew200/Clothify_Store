@@ -45,3 +45,14 @@
     -fx-text-fill: black;
      -fx-effect: dropshadow(gaussian, red, 10, 0.5, 5, 5);
 }
+
+#btnRegister{
+    -fx-background-color: red;
+    -fx-text-fill: white;
+ -fx-effect: dropshadow(gaussian, white, 10, 0.5, 5, 5);
+}
+#btnRegister:hover{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+     -fx-effect: dropshadow(gaussian, red, 10, 0.5, 5, 5);
+}
